@@ -8,6 +8,8 @@ import { RutasComponent } from './components/rutas/rutas.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RutaComponent } from './components/ruta/ruta.component';
+import { ReactiveFormsModule } from '@angular/forms'; // Importa el ReactiveFormsModule
+
 
 @NgModule({
   declarations: [
@@ -20,8 +22,9 @@ import { RutaComponent } from './components/ruta/ruta.component';
   imports: [
     BrowserModule,
     AppRoutingModule, 
-    FormsModule
-  ],
+    FormsModule,
+    ReactiveFormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
